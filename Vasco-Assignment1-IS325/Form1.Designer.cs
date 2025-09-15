@@ -42,7 +42,7 @@
             // lblFirstName
             // 
             lblFirstName.AutoSize = true;
-            lblFirstName.Location = new Point(161, 77);
+            lblFirstName.Location = new Point(158, 77);
             lblFirstName.Name = "lblFirstName";
             lblFirstName.Size = new Size(64, 15);
             lblFirstName.TabIndex = 0;
@@ -51,7 +51,7 @@
             // lblLastName
             // 
             lblLastName.AutoSize = true;
-            lblLastName.Location = new Point(380, 77);
+            lblLastName.Location = new Point(350, 77);
             lblLastName.Name = "lblLastName";
             lblLastName.Size = new Size(63, 15);
             lblLastName.TabIndex = 2;
@@ -60,7 +60,7 @@
             // lblHoursWorked
             // 
             lblHoursWorked.AutoSize = true;
-            lblHoursWorked.Location = new Point(611, 77);
+            lblHoursWorked.Location = new Point(583, 77);
             lblHoursWorked.Name = "lblHoursWorked";
             lblHoursWorked.Size = new Size(83, 15);
             lblHoursWorked.TabIndex = 4;
@@ -68,7 +68,7 @@
             // 
             // txtFirstName
             // 
-            txtFirstName.Location = new Point(158, 112);
+            txtFirstName.Location = new Point(157, 112);
             txtFirstName.Name = "txtFirstName";
             txtFirstName.Size = new Size(100, 23);
             txtFirstName.TabIndex = 1;
@@ -92,7 +92,7 @@
             // 
             // btnSummarize
             // 
-            btnSummarize.Location = new Point(182, 257);
+            btnSummarize.Location = new Point(157, 189);
             btnSummarize.Name = "btnSummarize";
             btnSummarize.Size = new Size(75, 23);
             btnSummarize.TabIndex = 6;
@@ -102,7 +102,7 @@
             // 
             // btnClear
             // 
-            btnClear.Location = new Point(281, 257);
+            btnClear.Location = new Point(263, 189);
             btnClear.Name = "btnClear";
             btnClear.Size = new Size(75, 23);
             btnClear.TabIndex = 7;
@@ -115,7 +115,7 @@
             lblOutput.AutoSize = true;
             lblOutput.BorderStyle = BorderStyle.FixedSingle;
             lblOutput.ForeColor = SystemColors.InfoText;
-            lblOutput.Location = new Point(241, 338);
+            lblOutput.Location = new Point(158, 238);
             lblOutput.Name = "lblOutput";
             lblOutput.Padding = new Padding(150, 20, 150, 20);
             lblOutput.Size = new Size(302, 57);

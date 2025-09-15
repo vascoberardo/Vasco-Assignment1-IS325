@@ -18,7 +18,7 @@ namespace Vasco_Assignment1_IS325
                 lblOutput.ForeColor = Color.Black;
 
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 lblOutput.Text = "Please enter a number of hours worked";
                 lblOutput.ForeColor = Color.Red;
