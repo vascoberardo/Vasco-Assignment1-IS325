@@ -54,7 +54,7 @@
             lblLastName.Location = new Point(380, 77);
             lblLastName.Name = "lblLastName";
             lblLastName.Size = new Size(63, 15);
-            lblLastName.TabIndex = 1;
+            lblLastName.TabIndex = 2;
             lblLastName.Text = "&Last Name";
             // 
             // lblHoursWorked
@@ -63,7 +63,7 @@
             lblHoursWorked.Location = new Point(611, 77);
             lblHoursWorked.Name = "lblHoursWorked";
             lblHoursWorked.Size = new Size(83, 15);
-            lblHoursWorked.TabIndex = 2;
+            lblHoursWorked.TabIndex = 4;
             lblHoursWorked.Text = "&Hours Worked";
             // 
             // txtFirstName
@@ -71,14 +71,16 @@
             txtFirstName.Location = new Point(158, 112);
             txtFirstName.Name = "txtFirstName";
             txtFirstName.Size = new Size(100, 23);
-            txtFirstName.TabIndex = 3;
+            txtFirstName.TabIndex = 1;
+            txtFirstName.TextChanged += txtFirstName_TextChanged;
             // 
             // txtLastName
             // 
             txtLastName.Location = new Point(350, 112);
             txtLastName.Name = "txtLastName";
             txtLastName.Size = new Size(100, 23);
-            txtLastName.TabIndex = 4;
+            txtLastName.TabIndex = 3;
+            txtLastName.TextChanged += txtLastName_TextChanged;
             // 
             // txtHoursWorked
             // 
@@ -86,6 +88,7 @@
             txtHoursWorked.Name = "txtHoursWorked";
             txtHoursWorked.Size = new Size(100, 23);
             txtHoursWorked.TabIndex = 5;
+            txtHoursWorked.TextChanged += txtHoursWorked_TextChanged;
             // 
             // btnSummarize
             // 
@@ -112,7 +115,7 @@
             lblOutput.AutoSize = true;
             lblOutput.BorderStyle = BorderStyle.FixedSingle;
             lblOutput.ForeColor = SystemColors.InfoText;
-            lblOutput.Location = new Point(230, 337);
+            lblOutput.Location = new Point(241, 338);
             lblOutput.Name = "lblOutput";
             lblOutput.Padding = new Padding(150, 20, 150, 20);
             lblOutput.Size = new Size(302, 57);
@@ -123,7 +126,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(832, 461);
             Controls.Add(lblOutput);
             Controls.Add(btnClear);
             Controls.Add(btnSummarize);
